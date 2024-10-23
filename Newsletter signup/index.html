@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter SignUp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Subscribe to our Newsletter</h1>
+    <form action="#" class="signup-form">
+        <label for="name">Name :</label>
+        <input type="text" name="name" id="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required>
+
+        <button type="submit">Subscribe</button>
+    </form>
+    <script>
+        document.querySelector('.signup-form').addEventListener('submit',function(event)
+    {
+        const name= document.getElementById('name').value;
+        const email= documeny.getElementById('email'). value;
+        if(name ==="|| email==="){
+            alert('please fill out all fields.'); 
+            event.preventDefault();
+            
+        }
+        else if(!email.includes('@')){
+            alert('please enter a valid email address.');
+            event.preventDefault();
+        }
+    }
+    )
+    </script>
+</body>
+</html>
