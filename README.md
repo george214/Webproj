@@ -1,7 +1,7 @@
 # Webproj
 
 
--This project focus css layouts and Responsive and HTML5
+This project focus css layouts and Responsive and HTML5
 
 
 ## Features
